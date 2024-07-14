@@ -1,6 +1,6 @@
 # Decodificador de Texto
 
-### Desafio Challenge Curso Alura
+### Challenge Curso Alura
 
 ###### Desafio: Criar uma aplicação que codifique palavras sendo uma das regras aceitar somente letras minusculas e palavras sem acentos usando HTML CSS e JavaScript
 

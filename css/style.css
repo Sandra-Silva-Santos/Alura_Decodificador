@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-bottom: 2rem;
+    text-shadow: 6px 0 #000;
+}
+
+h1 span {
+    display: inline-block;
+    animation: slide forwards 3s ease-in-out;
+    color: #0000ff;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, 3rem);
+    }
+}
+
+
+h1 span:hover {
+    color: #ff0000;
+    animation: both;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 1px;
+}
+
+
+textarea {
+    margin-top: 2rem;
+}
+
+.input-texto {
+    border-radius: 10px;
+    border-color: #0000ff;
+    position: relative;
+    font-size: large;
+    color: #0000ff;
+    box-shadow: 1px 2px 4px 2px #0000ff;
+
+}
+
+.input-texto::placeholder {
+    color: #0000ff;
+    font-size: 1rem;
+    font-family: "Bangers", system-ui;
+}
+
+.mensagem {
+    border-radius: 10px;
+    border-color: #ff0000;
+    position: relative;
+    font-size: large;
+    color: #ff0000;
+    box-shadow: 1px 2px 4px 2px #ff0000;
+}
+
+.mensagem::placeholder {
+    color: #ff0000;
+    font-size: 1rem;
+    font-family: "Bangers", system-ui;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+button {
+    padding: 0.5rem;
+    width: 120px;
+}
+
+.criptar {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    box-shadow: 5px 5px 5px 0 #000000;
+}
+
+.descriptar {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0000ff;
+    color: white;
+    box-shadow: 5px 5px 5px 0 #000000;
+}
+
+.copiar, .limpar {
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 5px 5px 5px 0 #000000;
+}
+
+
+.erro, .aviso {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ff0000;
+    margin-top: 1rem;
+
+
+}
+
+.footer {
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.logo-github,
+.logo-instagram,
+.logo-twitter,
+.logo-linkedin,
+.logo-lastfm,
+.logo-youtube {
+    padding-top: 2rem;
+    width: 24px;
+    height: 24px;
+
+}

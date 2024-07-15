@@ -78,6 +78,8 @@ function btnLimpar() {
 
 
 
+
+
 const text = "DECODIFICADOR";
 const title = document.getElementById("title");
 

@@ -36,7 +36,6 @@ h1 span {
     }
 }
 
-
 h1 span:hover {
     color: #ff0000;
     animation: both;
@@ -53,7 +52,12 @@ section {
 
 
 textarea {
-    margin-top: 2rem;
+    margin-top: 4rem;
+}
+
+textarea:focus, input:focus, select:focus {
+    border: 0 none;
+    outline: 0;
 }
 
 .input-texto {
@@ -63,7 +67,6 @@ textarea {
     font-size: large;
     color: #0000ff;
     box-shadow: 1px 2px 4px 2px #0000ff;
-
 }
 
 .input-texto::placeholder {
@@ -97,7 +100,7 @@ textarea {
 
 button {
     padding: 0.5rem;
-    width: 120px;
+    width: 150px;
 }
 
 .criptar {
@@ -129,13 +132,10 @@ button {
     font-size: 1.1rem;
     color: #ff0000;
     margin-top: 1rem;
-
-
 }
 
 .footer {
     text-align: center;
-    font-size: 1rem;
 
 }
 
@@ -145,7 +145,8 @@ button {
 .logo-linkedin,
 .logo-lastfm,
 .logo-youtube {
-    padding-top: 2rem;
+    padding: 0 auto;
+    margin-top: 5rem;
     width: 24px;
     height: 24px;
 

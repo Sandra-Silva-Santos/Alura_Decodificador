@@ -1,6 +1,5 @@
 const inputTexto = document.querySelector(".input-texto");
 const mensagem = document.querySelector(".mensagem");
-const inputOriginalOculto = document.querySelector('.input-original-oculto');
 const erro = document.querySelector(".erro");
 
 inputTexto.addEventListener('input', validarEntrada);
@@ -21,8 +20,6 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(inputTexto.value);
     mensagem.value = textoEncriptado;
     mensagem.style.backgroundImage = "none";
-
-    inputOriginalOculto.value = inputTexto.value;
 }
 
 function encriptar(stringEncriptada) {
@@ -73,6 +70,9 @@ function btnLimpar() {
 }
 
 
+
+inputTexto.innerText = inputTexto.value.trim();
+mensagem.innerText = inputTexto.value.trim();
 
 
 
